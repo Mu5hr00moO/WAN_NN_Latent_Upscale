@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Training outputs
+training_curves*.png
+*.log
+logs/
+runs/
+wandb/
+
+# Datasets (too large for git)
+datasets/
+data/
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Model checkpoints (except the main ones)
+models/*_step_*.pt
+models/*_epoch_*.pt
+models/checkpoint_*.pt
+
+# Keep main model files
+!models/sd15_resizer.pt
+!models/sdxl_resizer.pt
+!models/flux_resizer.pt
+!models/wan2.2_resizer_best.pt
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# Development outputs (keep scripts, ignore outputs)
+dev/training_curves*.png
+dev/synthetic_*.png
+dev/*.log
+dev/models/
+dev/datasets/
+
+# Keep development scripts
+!dev/*.py
+!dev/README.md

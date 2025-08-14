@@ -1,0 +1,29 @@
+# Core dependencies for Universal NN Latent Upscaler
+# These are typically already available in ComfyUI environments
+
+# PyTorch (usually pre-installed with ComfyUI)
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Core Python packages (usually available)
+numpy>=1.21.0
+pillow>=8.0.0
+
+# Optional dependencies for development
+# Uncomment if you plan to train models or run development scripts
+
+# Training and visualization
+# matplotlib>=3.5.0
+# tqdm>=4.64.0
+
+# Data processing
+# scipy>=1.8.0
+# scikit-image>=0.19.0
+
+# Development tools
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+
+# Note: ComfyUI typically provides most of these dependencies
+# Only install additional packages if you encounter import errors
